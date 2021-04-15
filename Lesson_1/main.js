@@ -3,10 +3,10 @@
 
 'use strict'
 
-var temp_celsius = window.prompt('Введите температуру в градусах Цельсия');
+var temp_celsius = prompt('Введите температуру в градусах Цельсия');
 var temp_farengeit = (9 / 5) * temp_celsius + 32;
 
-alert('Температура по Фаренгейту = ' + temp_farengeit);
+console.log('Температура по Фаренгейту = ' + temp_farengeit);
 
 
 //3. Объявить две переменные: admin и name. Записать в name строку "Василий"; Скопировать значение из name в admin. 
@@ -16,10 +16,10 @@ var admin;
 var name_ = 'Василий';
 admin = name_;
 
-alert(admin);
+console.log(admin);
 
 //4. *Чему будет равно JS-выражение 1000 + "108"/
 
 var a = 1000 + "108";
 
-alert('Выражение в JS (1000 + "108") будет =' + a);
+console.log('Выражение в JS (1000 + "108") будет =' + a);
