@@ -58,11 +58,11 @@ let basketPrice = 0
 
 function countBasketPrice(basketPrice) {
     for (let i = 0; i < price.length; i++) {
-        basketPrice = basketPrice + price[i]
+        basketPrice += price[i]
     }
     return basketPrice;
 }
-
+countBasketPrice(basketPrice);
 console.log("Cтоимости корзины товара = " + countBasketPrice(basketPrice))
 
 // 3.*Вывести с помощью цикла for числа от 0 до 9, не используя тело цикла. Выглядеть это должно так:
