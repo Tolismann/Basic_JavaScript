@@ -1,0 +1,17 @@
+.chess-block {
+    width: 720px;
+    height: 720px;
+    margin: 30px auto;
+    border: 1px solid black;
+}
+.block {
+    width: 90px;
+    height: 90px;
+    float: left;
+}
+.black {
+    background: #b58863;
+}
+.white {
+    background: #f0d9b5;
+}
