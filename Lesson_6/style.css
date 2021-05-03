@@ -1,0 +1,15 @@
+#basket {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+#popup {
+    position: fixed;
+    width: 500px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(206, 206, 206);
+    top: 200px;
+    left: calc(50% - 50px);
+    display: none;
+}
